@@ -1,29 +1,29 @@
 {
-  "name": "bradley",
+  "name": "ukmadlz",
   "version": "1.0.0",
   "description": "Developer Advocate with IBM (opinions and views are my own)",
   "bin": "./index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bradley-holt/bradley-npm.git"
+    "url": "git+https://github.com/ukmadlz/ukmadlz-npm.git"
   },
   "keywords": [
     "CouchDB",
     "PouchDB",
+    "IBM Graph",
     "offline first",
     "PHP",
     "Node.js",
-    "Domain-Driven Design",
-    "author",
     "speaker",
+    "hackathon",
     "Developer Advocate",
     "Developer Relations",
     "IBM"
   ],
-  "author": "Bradley Holt <bradley.holt@us.ibm.com> (https://ibm.biz/bradley-holt)",
+  "author": "Mike Elsmore <mike.elsmore@uk.ibm.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/bradley-holt/bradley-npm/issues"
+    "url": "https://github.com/ukmadlz/ukmadlz-npm/issues"
   },
   "homepage": "https://github.com/bradley-holt/bradley-npm#readme"
 }
