@@ -1,6 +1,6 @@
 {
   "name": "ukmadlz",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Developer Advocate with IBM (opinions and views are my own)",
   "bin": "./index.js",
   "repository": {
