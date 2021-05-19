@@ -1,6 +1,6 @@
 {
   "name": "ukmadlz",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Developer Advocate with IBM (opinions and views are my own)",
   "bin": "./index.js",
   "repository": {
@@ -13,17 +13,18 @@
     "IBM Graph",
     "offline first",
     "PHP",
-    "Node.js",
+    "NodeJS",
+    "TypeScript",
     "speaker",
     "hackathons",
     "Developer Advocate",
     "Developer Relations",
-    "IBM"
+    "Optic"
   ],
-  "author": "Mike Elsmore <mike.elsmore@uk.ibm.com>",
-  "license": "Apache-2.0",
+  "author": "Mike Elsmore <mike@elsmore.me>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ukmadlz/ukmadlz-npm/issues"
   },
-  "homepage": "https://github.com/bradley-holt/bradley-npm#readme"
+  "homepage": "https://github.com/ukmadlz/ukmadlz-npm#readme"
 }
