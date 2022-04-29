@@ -1,7 +1,7 @@
 {
   "name": "ukmadlz",
-  "version": "3.0.1",
-  "description": "Developer Advocate with IBM (opinions and views are my own)",
+  "version": "3.1.0",
+  "description": "Developer Advocate with Infosum (opinions and views are my own)",
   "bin": "./index.js",
   "repository": {
     "type": "git",
