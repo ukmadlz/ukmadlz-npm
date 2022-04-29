@@ -7,7 +7,6 @@ const API_URL = 'http://api.elsmore.me/socials';
 fetch(API_URL)
 .then((res) => res.json())
 .then((data) => {
-    console.log(data)
     const theMeBit = `
     Mike Elsmore works for Infosum as a Lead Developer Advocate.
     
