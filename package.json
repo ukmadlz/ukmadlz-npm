@@ -10,9 +10,11 @@
   "keywords": [
     "CouchDB",
     "PouchDB",
-    "IBM Graph",
+    "Tinkerpop Graph Database",
+    "benthos",
+    "devops-ish",
     "offline first",
-    "PHP",
+    "ETL",
     "NodeJS",
     "TypeScript",
     "speaker",
