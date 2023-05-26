@@ -2,7 +2,7 @@
 
 const package = require('./package.json');
 
-const API_URL = 'http://api.elsmore.me/socials';
+const API_URL = 'http://elsmore.me/api/socials';
 
 fetch(API_URL)
 .then((res) => res.json())
