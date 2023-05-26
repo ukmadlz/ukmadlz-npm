@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/ukmadlz/ukmadlz-npm/issues"
   },
-  "homepage": "https://github.com/ukmadlz/ukmadlz-npm#readme"
+  "homepage": "https://github.com/ukmadlz/ukmadlz-npm#readme",
+  "engines": {
+    "node": ">=18"
+  }
 }
