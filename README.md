@@ -2,15 +2,17 @@
 $ npm install -g ukmadlz
 $ ukmadlz
 
-Mike Elsmore works for Optic Labs as a Developer Advocate.
+Mike Elsmore is available for hire for software development, MVPs, Developer Experience and Developer Relations related work.
 
-Mike hacks and speaks about topics such as CouchDB, PouchDB, IBM Graph, offline first, PHP, NodeJS, TypeScript, speaker, hackathons, Developer Advocate, Developer Relations, Optic.
+For a day job he's usually talking about stuff, building stuff (occasionally SDKs), and trying share stuff.
+
+Mike hacks and speaks about topics such as Microservices, Prototyping, CouchDB, PouchDB, benthos, devops-ish, offline first, ETL, NodeJS, TypeScript, speaker, hackathons, Developer Advocate, Developer Relations.
 
 E-mail: <mike@elsmore.me>
 Website: <https://elsmore.me>
-Work E-mail: <mike.elsmore@useoptic.com>
-Twitch: <https://twitch.tv/ukmadlz>
 Twitter: <https://twitter.com/ukmadlz>
-GitHub: <https://www.github.com/ukmadlz>
-LinkedIn: <https://uk.linkedin.com/in/mikeelsmore>
+Mastodon: <https://mastodon.social/@ukmadlz>
+GitHub: <https://github.com/ukmadlz>
+Twitch: <https://twitch.tv/ukmadlz>
+LinkedIn: <https://www.linkedin.com/in/mikeelsmore/>
 ```
