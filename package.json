@@ -1,16 +1,17 @@
 {
   "name": "ukmadlz",
-  "version": "3.2.3",
-  "description": "Developer Advocate with Infosum (opinions and views are my own)",
+  "version": "3.2.4",
+  "description": "Developer Advocate and Software Engineer for Hire (opinions and views are my own)",
   "bin": "./index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ukmadlz/ukmadlz-npm.git"
   },
   "keywords": [
+    "Microservices",
+    "Prototyping",
     "CouchDB",
     "PouchDB",
-    "Tinkerpop Graph Database",
     "benthos",
     "devops-ish",
     "offline first",
@@ -20,8 +21,7 @@
     "speaker",
     "hackathons",
     "Developer Advocate",
-    "Developer Relations",
-    "Optic"
+    "Developer Relations"
   ],
   "author": "Mike Elsmore <mike@elsmore.me>",
   "license": "MIT",
