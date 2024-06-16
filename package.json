@@ -1,6 +1,6 @@
 {
   "name": "ukmadlz",
-  "version": "3.2.4",
+  "version": "3.2.5",
   "description": "Developer Advocate and Software Engineer for Hire (opinions and views are my own)",
   "bin": "./index.js",
   "repository": {

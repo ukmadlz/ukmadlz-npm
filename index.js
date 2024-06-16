@@ -14,6 +14,8 @@ fetch(API_URL)
 
     Mike hacks and speaks about topics such as ${package.keywords.join(", ")}.
 
+    If you'd like to arrange a quick chat with me https://calendly.com/mike-elsmore/15min and if you want to hire an hour of consulting https://calendly.com/mike-elsmore/consult
+
     E-mail: <mike@elsmore.me>
     Website: <https://elsmore.me>
 ${data.data.map((d) => `    ${d.name}: <${d.link}>`).join("\n")}

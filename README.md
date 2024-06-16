@@ -8,6 +8,8 @@ For a day job he's usually talking about stuff, building stuff (occasionally SDK
 
 Mike hacks and speaks about topics such as Microservices, Prototyping, CouchDB, PouchDB, benthos, devops-ish, offline first, ETL, NodeJS, TypeScript, speaker, hackathons, Developer Advocate, Developer Relations.
 
+If you'd like to arrange a quick chat with me https://calendly.com/mike-elsmore/15min and if you want to hire an hour of consulting https://calendly.com/mike-elsmore/consult
+
 E-mail: <mike@elsmore.me>
 Website: <https://elsmore.me>
 Twitter: <https://twitter.com/ukmadlz>
