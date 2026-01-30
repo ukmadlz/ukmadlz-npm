@@ -1,8 +1,16 @@
 {
   "name": "ukmadlz",
-  "version": "3.2.5",
+  "version": "4",
   "description": "Developer Advocate and Software Engineer for Hire (opinions and views are my own)",
-  "bin": "./index.js",
+  "bin": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist",
+    "package.json"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ukmadlz/ukmadlz-npm.git"
@@ -31,5 +39,9 @@
   "homepage": "https://github.com/ukmadlz/ukmadlz-npm#readme",
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.7.0"
   }
 }
