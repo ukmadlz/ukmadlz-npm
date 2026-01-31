@@ -2,7 +2,9 @@
   "name": "ukmadlz",
   "version": "4.0.1",
   "description": "Developer Advocate and Software Engineer for Hire (opinions and views are my own)",
-  "bin": "./dist/index.js",
+  "bin": {
+    "ukmadlz": "dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
