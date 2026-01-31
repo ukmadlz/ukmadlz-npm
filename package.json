@@ -1,6 +1,6 @@
 {
   "name": "ukmadlz",
-  "version": "4.2.0",
+  "version": "4.3.0",
   "description": "Developer Advocate and Software Engineer for Hire (opinions and views are my own)",
   "bin": {
     "ukmadlz": "dist/index.js"
@@ -10,7 +10,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
-    "test:smoke": "npm run build && VITEST_SMOKE=1 vitest run smoke",
+    "test:smoke": "npm run build && vitest run --config vitest.smoke.config.mts",
     "prepublishOnly": "npm run build"
   },
   "files": [

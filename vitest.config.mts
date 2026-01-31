@@ -4,10 +4,7 @@ export default defineConfig({
   test: {
     globals: true,
     testTimeout: 15000,
-    exclude: [
-      ...configDefaults.exclude,
-      ...(process.env.VITEST_SMOKE ? [] : ["src/__tests__/smoke.test.ts"]),
-    ],
+    exclude: [...configDefaults.exclude, "src/__tests__/smoke.test.ts"],
     coverage: {
       provider: "v8",
       include: ["src/**/*.ts"],
