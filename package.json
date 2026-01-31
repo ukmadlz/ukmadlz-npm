@@ -10,7 +10,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
-    "test:smoke": "npm run build && VITEST_SMOKE=1 vitest run --testPathPattern smoke",
+    "test:smoke": "npm run build && VITEST_SMOKE=1 vitest run smoke",
     "prepublishOnly": "npm run build"
   },
   "files": [
