@@ -2,15 +2,15 @@
 
 import pkg from "../package.json";
 
-const BASE_URL = "https://elsmore.me/api";
+export const BASE_URL = process.env.UKMADLZ_API_URL || "https://elsmore.me/api";
 
-interface Social {
+export interface Social {
   name: string;
   url: string;
   icon: string;
 }
 
-interface SocialData {
+export interface SocialData {
   name: string;
   description: string;
   email: string;
@@ -18,7 +18,7 @@ interface SocialData {
   socials: Social[];
 }
 
-interface SocialResponse {
+export interface SocialResponse {
   meta: {
     generated_at: string;
     version: string;
@@ -26,7 +26,7 @@ interface SocialResponse {
   data: SocialData;
 }
 
-interface Talk {
+export interface Talk {
   id: number;
   title: string;
   event: string;
@@ -38,12 +38,12 @@ interface Talk {
   url: string;
 }
 
-interface TalksResponse {
+export interface TalksResponse {
   meta: { generated_at: string; version: string; total_count: number; limit: number };
   data: Talk[];
 }
 
-interface Post {
+export interface Post {
   id: number;
   title: string;
   published_date: string;
@@ -52,12 +52,12 @@ interface Post {
   url: string;
 }
 
-interface PostsResponse {
+export interface PostsResponse {
   meta: { generated_at: string; version: string; total_count: number; limit: number };
   data: Post[];
 }
 
-interface Job {
+export interface Job {
   company: string;
   title: string;
   logo: string;
@@ -67,12 +67,12 @@ interface Job {
   current: boolean;
 }
 
-interface JobsResponse {
+export interface JobsResponse {
   meta: { generated_at: string; version: string };
   data: Job[];
 }
 
-async function showBio(): Promise<void> {
+export async function showBio(): Promise<void> {
   const [socialRes, jobsRes] = await Promise.all([
     fetch(`${BASE_URL}/social.json`),
     fetch(`${BASE_URL}/jobs.json`),
@@ -99,7 +99,7 @@ ${data.socials.map((s) => `    ${s.name}: <${s.url}>`).join("\n")}
   console.log(theMeBit);
 }
 
-async function showTalks(): Promise<void> {
+export async function showTalks(): Promise<void> {
   const res = await fetch(`${BASE_URL}/talks.json`);
   const { data }: TalksResponse = await res.json();
 
@@ -109,7 +109,7 @@ async function showTalks(): Promise<void> {
   console.log(output);
 }
 
-async function showJobs(): Promise<void> {
+export async function showJobs(): Promise<void> {
   const res = await fetch(`${BASE_URL}/jobs.json`);
   const { data }: JobsResponse = await res.json();
 
@@ -122,7 +122,7 @@ async function showJobs(): Promise<void> {
   console.log(output);
 }
 
-async function showPosts(): Promise<void> {
+export async function showPosts(): Promise<void> {
   const res = await fetch(`${BASE_URL}/posts.json`);
   const { data }: PostsResponse = await res.json();
 
@@ -132,7 +132,7 @@ async function showPosts(): Promise<void> {
   console.log(output);
 }
 
-function showHelp(): void {
+export function showHelp(): void {
   console.log(`ukmadlz v${pkg.version}
 
 Usage: ukmadlz [command]
@@ -147,7 +147,7 @@ Options:
   --help, -h    Show this help message`);
 }
 
-async function main(): Promise<void> {
+export async function main(): Promise<void> {
   const command = process.argv[2];
 
   switch (command) {
@@ -171,4 +171,6 @@ async function main(): Promise<void> {
   }
 }
 
-main();
+if (require.main === module) {
+  main();
+}

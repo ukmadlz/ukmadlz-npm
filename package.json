@@ -1,12 +1,16 @@
 {
   "name": "ukmadlz",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "Developer Advocate and Software Engineer for Hire (opinions and views are my own)",
   "bin": {
     "ukmadlz": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:smoke": "npm run build && vitest run --testPathPattern smoke",
     "prepublishOnly": "npm run build"
   },
   "files": [
@@ -43,7 +47,9 @@
     "node": ">=18"
   },
   "devDependencies": {
-    "@types/node": "^18.0.0",
-    "typescript": "^5.7.0"
+    "@types/node": "^22.19.7",
+    "@vitest/coverage-v8": "^4.0.18",
+    "typescript": "^5.7.0",
+    "vitest": "^4.0.18"
   }
 }
